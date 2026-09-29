@@ -2,6 +2,12 @@
 
 // OK, I will add ‘Adder‘ and s35945 will add ‘Subtractor‘.
 
+class Subtractor{
+    public int subtract(int a, int b){
+        return a-b;
+    }
+}
+
 public class Main {
     static void main() {
         Adder adder = new Adder();
